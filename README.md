@@ -1,54 +1,23 @@
-# Astro Starter Kit: Basics
+# Astro
 
-```
-npm create astro@latest -- --template basics
-```
+<p align="left">
+  <a href="https://astro.build/"><img src="https://runebook.dev/assets/topics/astro.webp" height="50px;" /></a>
+</p>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## メリット
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- サーバファースト
+  - クライアントサイドのレンダリングよりもサーバーサイドのレンダリングを可能な限り活用
+- 他のライブラリを使用することが可能
+  - React、Preact、Svelte、Vue、Solid、Lit などはすべてサポートされており、それを使って Astro プロジェクトで新しい UI コンポーネントを作成可能
+- サーバサイドレンダリングに特化した設計
+  - フロントエンドに複雑な実装を持たせる必要なし
+- Astro Islands
+  - インタラクティブなコンポーネント(アイランド)は常に独立して読み込まれ、要求に応じて実行することが可能
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+## 所感
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Astro のコードは理解し易くて書いていて楽しい
+- 静的なページを作成する点においては Next.js よりも上だと感じる
+  - HP 作成やブログ作成などの選択肢には最適
+- 複雑性を排除したはいいものの、色々なフレームワークを組み合わせられるので、運用方法をしっかりと定めないと、やはり複雑なコードになってしまうのではないかと思う
