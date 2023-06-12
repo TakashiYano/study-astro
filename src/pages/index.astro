@@ -1,7 +1,9 @@
 ---
 import "../styles/global.css";
-import BaseLayout from "../layouts/BaseLayout.astro";
-import Greeting from "../components/Greeting";
+import Greeting from "@components/Greeting";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export const prerender = true;
 
 const pageTitle = "Home Page";
 ---

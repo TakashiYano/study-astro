@@ -1,5 +1,11 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  frontmatter: CollectionEntry<"posts">["data"];
+}
+
 const { frontmatter } = Astro.props;
 ---
 
