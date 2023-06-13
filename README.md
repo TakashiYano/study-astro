@@ -1,10 +1,8 @@
-# Astro
-
 <p align="left">
   <a href="https://astro.build/"><img src="https://runebook.dev/assets/topics/astro.webp" height="50px;" /></a>
 </p>
 
-## メリット
+## Overview
 
 - サーバファースト
   - クライアントサイドのレンダリングよりもサーバーサイドのレンダリングを可能な限り活用
@@ -12,12 +10,8 @@
   - React、Preact、Svelte、Vue、Solid、Lit などはすべてサポートされており、それを使って Astro プロジェクトで新しい UI コンポーネントを作成可能
 - サーバサイドレンダリングに特化した設計
   - フロントエンドに複雑な実装を持たせる必要なし
-- Astro Islands
-  - インタラクティブなコンポーネント(アイランド)は常に独立して読み込まれ、要求に応じて実行することが可能
-- Content Collections
-  - 従来の管理に加えてファイル内の型情報を定義することができるようになり、ファイルの記述内容が間違っているからビルドが失敗するなどのミスを事前に防ぐことが可能
 
-## 所感
+## Impression
 
 - Astro のコードは理解し易くて書いていて楽しい
 - 静的なページを作成する点においては Next.js よりも上だと感じる
