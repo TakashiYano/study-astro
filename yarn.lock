@@ -69,9 +69,9 @@
     esbuild "^0.15.18"
 
 "@astrojs/node@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-5.2.0.tgz#1fbc2fca763c23a066a52f9b2501c86166157800"
-  integrity sha512-WWrQuxvdrD2Jd9np8vpS8/zCNEm0JnGv+oaojXzbfW36R8/09L827t/acYxLuguLufiV3U16QAqEwpS8VFS9TA==
+  version "5.3.6"
+  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-5.3.6.tgz#f13c6baac83832d0169e9083f6dd5f13ae24f0ff"
+  integrity sha512-aKM1xBzHMKBU6UIL8UQ63L3DHGq+vghAsFRRWOHjmGBmpvQsTTca1JTFqytFyzzWg6kY1sy4mDA1HOaJDuVZdA==
   dependencies:
     "@astrojs/webapi" "^2.2.0"
     send "^0.18.0"
@@ -3463,9 +3463,9 @@ typescript@*:
   integrity sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==
 
 undici@^5.22.0:
-  version "5.22.1"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.22.1.tgz#877d512effef2ac8be65e695f3586922e1a57d7b"
-  integrity sha512-Ji2IJhFXZY0x/0tVBXeQwgPlLWw13GVzpsWPQ3rV50IFMMof2I55PZZxtm4P6iNq+L5znYN9nSTAq0ZyE6lSJw==
+  version "5.23.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.23.0.tgz#e7bdb0ed42cebe7b7aca87ced53e6eaafb8f8ca0"
+  integrity sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==
   dependencies:
     busboy "^1.6.0"
 
