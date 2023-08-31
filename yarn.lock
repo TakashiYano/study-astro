@@ -68,12 +68,11 @@
     "@netlify/functions" "^1.0.0"
     esbuild "^0.15.18"
 
-"@astrojs/node@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-5.2.0.tgz#1fbc2fca763c23a066a52f9b2501c86166157800"
-  integrity sha512-WWrQuxvdrD2Jd9np8vpS8/zCNEm0JnGv+oaojXzbfW36R8/09L827t/acYxLuguLufiV3U16QAqEwpS8VFS9TA==
+"@astrojs/node@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/node/-/node-6.0.0.tgz#1c3626dde18846512abb3a6490a0b67b3874f868"
+  integrity sha512-06x5UBt+g0EIUpOdtCdnTxRJhOTLxUnjzmGwIHp9RNBlIEpzd/dJs6pwvfiM2zuPolTLI53T8VOsdw3EMh2V+w==
   dependencies:
-    "@astrojs/webapi" "^2.2.0"
     send "^0.18.0"
     server-destroy "^1.0.1"
 
