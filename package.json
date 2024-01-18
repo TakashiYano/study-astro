@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@astrojs/netlify": "^2.3.0",
-    "@astrojs/node": "^5.2.0",
+    "@astrojs/node": "^8.0.0",
     "@astrojs/preact": "^2.2.1",
     "@astrojs/rss": "^2.4.3",
     "astro": "^2.6.0",
