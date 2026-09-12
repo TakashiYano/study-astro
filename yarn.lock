@@ -10,7 +10,76 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@astrojs/compiler@^1.0.1", "@astrojs/compiler@^1.4.0", "@astrojs/compiler@^1.4.2", "@astrojs/compiler@^1.5.0":
+"@astrojs/compiler-binding-darwin-arm64@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-darwin-arm64/-/compiler-binding-darwin-arm64-0.4.0.tgz#67cb98647d3fd1da43469813b9ee2c3421d805f1"
+  integrity sha512-ZVUwHundaQyFNjE6uoa0usaC0WOCitDCLS/4mdb4rOiJXwVUuKJBMxI5WMzXLWmamsXtK/Z//ifLXvV5Yeh4Hw==
+
+"@astrojs/compiler-binding-darwin-x64@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-darwin-x64/-/compiler-binding-darwin-x64-0.4.0.tgz#6f1275c8ef6c67b54208d554b9874ceef3542746"
+  integrity sha512-FI6G8AY8u6fR1SI/QRR5yGMwtvZwP34CDmZpZ5HwJGa50UM1VISTLhqkhV4a476pmgd25X1Aur2dqw6hUnrlKA==
+
+"@astrojs/compiler-binding-linux-arm64-gnu@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-linux-arm64-gnu/-/compiler-binding-linux-arm64-gnu-0.4.0.tgz#9aec0e6b1748c35709965ebb3dba0cc26a4c7390"
+  integrity sha512-lB9gLFJK7m82EnjaU8nlRBEfcwGNeHidW3sSjODTUjMNaoewVuUz9fwwdY5M4jiSXIqWLH3yl6TX8FTDKA74Sw==
+
+"@astrojs/compiler-binding-linux-arm64-musl@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-linux-arm64-musl/-/compiler-binding-linux-arm64-musl-0.4.0.tgz#dfe24f0e20f948a0a615368547a880d062416bab"
+  integrity sha512-HPbvWqbxFxyaoQJhLxCaSjtYBx9KBo7JGVzEFZCmMl968a2PsSH0UfiODYgYPXofTOIsIH2aoCcrHXML0IA3ig==
+
+"@astrojs/compiler-binding-linux-x64-gnu@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-linux-x64-gnu/-/compiler-binding-linux-x64-gnu-0.4.0.tgz#aab6ec6d0ac05a26120733624a367cffcb642986"
+  integrity sha512-tQKolMxoJ/+0AmLWm1PmJ/i+z3i10ZU1bNuVjEDulCf48azEMtUNjTZgHJ5MPtpYRNc7dlETr8QujUfduzoC7Q==
+
+"@astrojs/compiler-binding-linux-x64-musl@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-linux-x64-musl/-/compiler-binding-linux-x64-musl-0.4.0.tgz#64ed46b6972acfc1f6e5f850492773554aefe4a1"
+  integrity sha512-5v5YymudsxMHp3NBLCS8BUlu5CRqeLtWD9cKS/4nIhIEHCbpz9okmVV6I0HWqmBAPhWYcDa3vw/vltYPrOQCTA==
+
+"@astrojs/compiler-binding-wasm32-wasi@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-wasm32-wasi/-/compiler-binding-wasm32-wasi-0.4.0.tgz#35295dde3b6d4812e610200e08db2529fc1f1043"
+  integrity sha512-m/phuH3x3PREvv1OnkM44NoPh4MatUadix1fB1u5SvMLCyDTUZykDJbKnWf1cjnYmHdlB8HcjTjl6JrCqAIXcw==
+  dependencies:
+    "@napi-rs/wasm-runtime" "^1.2.2"
+
+"@astrojs/compiler-binding-win32-arm64-msvc@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-win32-arm64-msvc/-/compiler-binding-win32-arm64-msvc-0.4.0.tgz#9d23596738f41983068620155b7eab22ed958d3e"
+  integrity sha512-B9zYf3okEY83kM8gydlpH2BHP00w4ifxPqlYlWrgTwuD6wnkrJDCwBlgy1q31cERjCJRXN1lrE2VmkLvFjv/6g==
+
+"@astrojs/compiler-binding-win32-x64-msvc@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding-win32-x64-msvc/-/compiler-binding-win32-x64-msvc-0.4.0.tgz#d0009fbf1efb9245ce3f3ca19b270cab67c02f33"
+  integrity sha512-zB0Nrv0dGc0zZWPGDRmmETTPhDRqyZjAjk+gWMlVrJX5U89obpB3VUUE1ZiHxOCN5LQojeLK6O8L/dnoHolvNQ==
+
+"@astrojs/compiler-binding@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-binding/-/compiler-binding-0.4.0.tgz#b4ab9ae3392051edcbf901fee84c66391dcfc347"
+  integrity sha512-x2RjDUuWfwLNtc3mjAdSRInwqh/rqbLar9cm/5FOMbHvmYZB7yfKewzSclAxWjIZsypJDXv1lhaP2WG+P8TK3g==
+  optionalDependencies:
+    "@astrojs/compiler-binding-darwin-arm64" "0.4.0"
+    "@astrojs/compiler-binding-darwin-x64" "0.4.0"
+    "@astrojs/compiler-binding-linux-arm64-gnu" "0.4.0"
+    "@astrojs/compiler-binding-linux-arm64-musl" "0.4.0"
+    "@astrojs/compiler-binding-linux-x64-gnu" "0.4.0"
+    "@astrojs/compiler-binding-linux-x64-musl" "0.4.0"
+    "@astrojs/compiler-binding-wasm32-wasi" "0.4.0"
+    "@astrojs/compiler-binding-win32-arm64-msvc" "0.4.0"
+    "@astrojs/compiler-binding-win32-x64-msvc" "0.4.0"
+
+"@astrojs/compiler-rs@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler-rs/-/compiler-rs-0.4.0.tgz#ca07189d9eda0470e00e61dfe2639518dab1cdf1"
+  integrity sha512-koVikeon1kreEy+/JzLQRy3vzHHQVOjycs4degg4vFufKApZOwMZvSSAEztYNhmcQVfNVsVZZI4cEge3cexAbQ==
+  dependencies:
+    "@astrojs/compiler-binding" "0.4.0"
+
+"@astrojs/compiler@^1.0.1", "@astrojs/compiler@^1.4.0", "@astrojs/compiler@^1.4.2":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-1.5.0.tgz#e84afaf624c9b8c00df3a00e1fbcdf926dc4ade0"
   integrity sha512-k04X/7nlMklU0HQUScxbCTf5n8/Vr+0U0bawb9QWulWxd6qJf3FmBrNATgTYiltjB4pc5HBqmmttAfFi7m4lLg==
@@ -702,6 +771,13 @@
   resolved "https://registry.yarnpkg.com/@ljharb/has-package-exports-patterns/-/has-package-exports-patterns-0.0.2.tgz#c1718939b65efa1f45f53686c2fcfa992b9fb68f"
   integrity sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==
 
+"@napi-rs/wasm-runtime@^1.2.2":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.4.tgz#ae38d9ea8483942054c5d82f00c0163374cd1e5f"
+  integrity sha512-AJxoUD2/15ESHbvpcyjU274nsAPLuOtPHCk0vKJM5pj//Fg/B1FXNWjPnXTT9PymCYYiHo4zPj0ZomXBKhoy7g==
+  dependencies:
+    "@tybys/wasm-util" "^0.10.3"
+
 "@netlify/functions@^1.0.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-1.6.0.tgz#c373423e6fef0e6f7422ac0345e8bbf2cb692366"
@@ -753,6 +829,18 @@
   integrity sha512-N09DuAVvc90bBZVRwD+aFhtGyHAmJLhS3IFoawO/bYJRcil4k83nBOchpCEoS0s5+BXBpahgp0Mjf+IOqP57Og==
   dependencies:
     "@preact/signals-core" "^1.2.3"
+
+"@prettier/parse-srcset@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@prettier/parse-srcset/-/parse-srcset-3.1.0.tgz#10a6785b84812b5ec506c16812fc2e3c6bb10b9e"
+  integrity sha512-FIRv2rZotO9NP/r66taYqD1zICpPiBbrECqjKV/xqNotqDxF7fLzzUeK+1RSRx9Tenk0DajR/GcRmTJ2qtHaKQ==
+
+"@tybys/wasm-util@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz#015cba9e9dd47ce14d03d2a8c5d547bfb169665d"
+  integrity sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg==
+  dependencies:
+    tslib "^2.4.0"
 
 "@types/babel__core@^7.1.19":
   version "7.20.1"
@@ -2902,15 +2990,6 @@ preferred-pm@^3.0.3:
     path-exists "^4.0.0"
     which-pm "2.0.0"
 
-prettier-plugin-astro@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-0.10.0.tgz#b6a1b64176b676f97b97c526cfa3099eaf57d4f8"
-  integrity sha512-dPzop0gKZyVGpTDQmfy+e7FKXC9JT3mlpfYA2diOVz+Ui+QR1U4G/s+OesKl2Hib2JJOtAYJs/l+ovgT0ljlFA==
-  dependencies:
-    "@astrojs/compiler" "^1.5.0"
-    prettier "^2.8.8"
-    sass-formatter "^0.7.6"
-
 prettier-plugin-astro@^0.9.1:
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-0.9.1.tgz#237d2f536d66501c3a351614c43c2372baca7411"
@@ -2920,6 +2999,15 @@ prettier-plugin-astro@^0.9.1:
     prettier "^2.8.3"
     sass-formatter "^0.7.5"
     synckit "^0.8.4"
+
+prettier-plugin-astro@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-1.0.0.tgz#7d0f9c05abbd19444934fa5f4cf1ee8329e100da"
+  integrity sha512-xOlwKNSaPkPPiJeOhiFk8/MA2eH5A+in99dID+weTJhPcq+FBdIaB/3UNFdy9ckmc8/bT7QNyxSb78cnopgElQ==
+  dependencies:
+    "@astrojs/compiler-rs" "^0.4.0"
+    "@prettier/parse-srcset" "^3.1.0"
+    sass-formatter "^0.8.0"
 
 prettier@^2.8.3, prettier@^2.8.8:
   version "2.8.8"
@@ -3155,10 +3243,17 @@ safe-buffer@~5.2.0:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
-sass-formatter@^0.7.5, sass-formatter@^0.7.6:
+sass-formatter@^0.7.5:
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/sass-formatter/-/sass-formatter-0.7.6.tgz#aa64b4120c375b71b8b7e18ff60b5f3e17081e3e"
   integrity sha512-hXdxU6PCkiV3XAiSnX+XLqz2ohHoEnVUlrd8LEVMAI80uB1+OTScIkH9n6qQwImZpTye1r1WG1rbGUteHNhoHg==
+  dependencies:
+    suf-log "^2.5.3"
+
+sass-formatter@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/sass-formatter/-/sass-formatter-0.8.0.tgz#bd1df0d141e628c567194a28b283ede3fed80987"
+  integrity sha512-Nf4eMGE2O5vnJG7KPCRyksWS9gVKSYoUWtPeMXRRxwZSPVQhSGtL602xVYS65LvMkHmkvKa7xpauF0+/5pPwrg==
   dependencies:
     suf-log "^2.5.3"
 
@@ -3441,6 +3536,11 @@ tsconfig-resolver@^3.0.1:
     resolve "^1.17.0"
     strip-bom "^4.0.0"
     type-fest "^0.13.1"
+
+tslib@^2.4.0:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tslib@^2.5.0:
   version "2.5.3"
